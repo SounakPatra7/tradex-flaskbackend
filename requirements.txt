@@ -1,0 +1,14 @@
+Flask
+Flask-CORS
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+yfinance        
+tensorflow       
+keras   
+pymongo
+requests
+python-dotenv
+python-dotenv  
