@@ -98,11 +98,7 @@ from keras.models import load_model
 import yfinance as yf
 
 app = Flask(__name__)
-
-CORS(app, origins=[
-    'http://localhost:3000',
-    'https://tradexai.netlify.app'  # Replace with actual URL
-])
+CORS(app)
 
 # Supported symbols
 SUPPORTED_SYMBOLS = {"AAPL", "GOOG", "MSFT", "TSLA"}
